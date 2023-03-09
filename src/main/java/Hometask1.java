@@ -1,8 +1,7 @@
-import java.io.PrintStream;
 import java.util.Random;
 import java.util.ArrayList;
 // делаем дз и разбиваем на методы в одном классе
-public class hometask1 {
+public class Hometask1 {
     // 1. Выбросить случайное целое число в диапазоне от 0 до 2000 и сохранить в i
     public static int randomInt(int min, int max) {
         Random random = new Random();
