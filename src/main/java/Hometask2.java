@@ -104,6 +104,8 @@ public class Hometask2 {
         return end-begin;
     }
 
+
+
     public static void main(String[] args) {
         System.out.println(ifStringIs("mystring", "nothing"));
         System.out.println(isReverse("not", "ton"));
@@ -116,6 +118,8 @@ public class Hometask2 {
         System.out.println(compareTimeWithStr(str));
         String forReverse = "123456 789";
         System.out.println(recReverse(forReverse));
+
+
 
     }
 
