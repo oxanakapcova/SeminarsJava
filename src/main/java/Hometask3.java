@@ -76,9 +76,6 @@ public class Hometask3 {
         return (end - begin);
     }
     public static void main(String[] args) {
-        int[]arrayForSort = new int []{1, 9, 2, 4, 4, 1, 9, 2, 0, 0, 10, 9};
-
-        int size = 10;
         ArrayList <Integer> testList = getArrayList(size);
         ArrayList <Integer> newList = getArrayList(size);
         LinkedList <Integer> linkedList = new LinkedList<>(newList);
