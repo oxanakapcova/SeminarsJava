@@ -50,7 +50,6 @@ public class Hometask3 {
         for (int i = 0; i < yourArray.size()+count; i++) {
             newList.add(whatToAdd);
         }
-        long end = System.currentTimeMillis();
     return newList;
     }
 
