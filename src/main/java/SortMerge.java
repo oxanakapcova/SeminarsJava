@@ -1,6 +1,11 @@
 package src.main.java;
 import java.util.Random;
 public class SortMerge {
+
+    public SortMerge() {
+        // конструктор
+    }
+
     public static void main(String[] args) {
         int[] testArray = new int[] {1, 34, 29, 10, 10, 10, 0, -23, -48, 2};
         System.out.println(arrayForPrint(testArray));
@@ -75,7 +80,7 @@ public class SortMerge {
         int []array = new int[size];
         Random random = new Random();
         for (int i = 0; i < size; i++) {
-            array[i] = random.nextInt(100);
+            array[i] = random.nextInt(1000000);
         }
         return array;
     }
