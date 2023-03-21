@@ -76,6 +76,7 @@ public class Hometask3 {
         return (end - begin);
     }
     public static void main(String[] args) {
+        int size = 10;
         ArrayList <Integer> testList = getArrayList(size);
         ArrayList <Integer> newList = getArrayList(size);
         LinkedList <Integer> linkedList = new LinkedList<>(newList);

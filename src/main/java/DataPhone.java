@@ -64,13 +64,11 @@ public class DataPhone {
             }
             case "2" -> {
                 TreeMap <Integer, String> tm = new TreeMap<>();
-
-                for (int i = 0; i < idList.size(); i++) {
-                    idList.set(i, Integer.parseInt(phoneBook.get(i).get(3)));
+// сортирует в тримапе ключ возраст, значение фамилия
+                for (LinkedList<String> strings : phoneBook) {
+                    tm.put(Integer.parseInt(strings.get(3)), (strings.get(0)));
                 }
-                System.out.println(idList);
-                Collections.sort(idList);
-                System.out.println("отсортировано по возрасту: "+ idList);
+                System.out.println("отсортировано по возрасту: "+ tm);
 
             }
         }

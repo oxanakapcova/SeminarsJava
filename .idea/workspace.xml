@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c17d9b2e-5e61-49ba-9c91-4ddb14933c49" name="Changes" comment="hometasks from seminar 3 &amp; mergeSort without recurtion">
-      <change afterPath="$PROJECT_DIR$/input2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HashMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hometask4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+    <list default="true" id="c17d9b2e-5e61-49ba-9c91-4ddb14933c49" name="Changes" comment="hometasks from seminar 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sem6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hometask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hometask3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PhoneBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678531523365</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hometasks from seminar 5">
+      <created>1679168755202</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679168755202</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +181,7 @@
     <MESSAGE value="hometasks from Seminar 1 a" />
     <MESSAGE value="hometasks from Seminar 2" />
     <MESSAGE value="hometasks from seminar 3 &amp; mergeSort without recurtion" />
-    <option name="LAST_COMMIT_MESSAGE" value="hometasks from seminar 3 &amp; mergeSort without recurtion" />
+    <MESSAGE value="hometasks from seminar 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hometasks from seminar 5" />
   </component>
 </project>

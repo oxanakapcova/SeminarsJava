@@ -4,7 +4,7 @@ import java.util.LinkedList;
 public class PhoneBook {
     static LinkedList<LinkedList<String>> phoneBook = new LinkedList<>();
     static Scanner scanner = new Scanner(System.in);
-
+// выводит подсказку пользователю что нажимать
     public static void printPrompt() {
         System.out.println(
                 """
@@ -15,7 +15,7 @@ public class PhoneBook {
                         Нажмите '4' если хотите вывести на экран без сортировки
                                     """);
     }
-
+// если введено некорректно то циклом будет возвращать пока не введется корректный номер операции
     public static String getOperation() {
         String operation = scanner.nextLine();
         while (!Objects.equals(operation, "0") & !Objects.equals(operation, "1")
@@ -27,7 +27,7 @@ public class PhoneBook {
         }
         return operation;
     }
-
+//печать по заданному (фамилия полностью и инициалы приведенные к верхнему регистру, возраст, пол)
     public static void printContact() {
         for (LinkedList<String> contact : phoneBook) {
             System.out.print(contact.get(0) + " ");
@@ -37,7 +37,7 @@ public class PhoneBook {
             System.out.println(contact.get(4));
         }
     }
-
+// формирование контакта
     public static LinkedList<String> getContact() {
         LinkedList<String> newContact = new LinkedList<>();
         System.out.println("Введите фамилию: ");
@@ -54,7 +54,8 @@ public class PhoneBook {
     }
 
     static LinkedList<Integer> idList = new LinkedList<>();
-
+    static int count = 0;//для айдишника
+// процесс , что делать при нажатии каждой кнопки
     public static void doOperation(String operation) {
         switch (operation) {
             case "1" -> phoneBook.add(getContact());
@@ -63,7 +64,7 @@ public class PhoneBook {
                 printContact();
             }
             case "2" -> {
-                for (int i = 0; i < idList.size(); i++) {
+                for (int i = 0; i < phoneBook.size(); i++) {
                     idList.set(i, Integer.parseInt(phoneBook.get(i).get(3)));
                     System.out.println("i =" + i);
                     System.out.println("меняем на " + Integer.parseInt(phoneBook.get(i).get(3)));
@@ -72,7 +73,7 @@ public class PhoneBook {
             }
         }
     }
-
+// клиентский код
     public static void main(String[] args) {
         String operation = "";
         while (!Objects.equals(operation, "0")) {
